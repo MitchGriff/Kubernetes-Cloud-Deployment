@@ -5,7 +5,7 @@
 ### Mitch Griffith  admin
 #### Noah Demi       user
 #### Klentin Mollai  user
-#### Klentin Mollai  user
+#### Liam Kelleher   user
 #### Klentin Mollai  user
 
 ###### Install and deploy a multi-node container-based computing service on Kubernetes.
