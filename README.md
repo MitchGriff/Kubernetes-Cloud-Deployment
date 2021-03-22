@@ -6,7 +6,7 @@
 #### Noah Demi       user
 #### Klentin Mollai  user
 #### Liam Kelleher   user
-#### Klentin Mollai  user
+#### Matt Logan      user
 
 ## Google Doc:
 ### https://docs.google.com/document/d/1ElFoIr5jb2kwBYB_Svwb5WzeizQcR_evMXCaTS6yKJg/edit?usp=sharing
