@@ -8,6 +8,9 @@
 #### Liam Kelleher   user
 #### Klentin Mollai  user
 
+## Google Doc:
+### https://docs.google.com/document/d/1ElFoIr5jb2kwBYB_Svwb5WzeizQcR_evMXCaTS6yKJg/edit?usp=sharing
+
 ###### Install and deploy a multi-node container-based computing service on Kubernetes.
 ###### Project Primary Task:
 ###### Propose a computing service consisting of at least three service component (i.e., a web server with a backend SQL server and a Single-Sign-On LDAP server for authentication  purposes) and deploy the corresponding containers inside Kubernetes infrastructure.
