@@ -21,7 +21,7 @@
 ## Installation and Deployment
 ### Deliverable 1:
 ### Team description
-Create an apache web server connected to a SQL database of users.  Create a login server which can add, delete and authenticate users on an LDAP server.  
+###### Create an apache web server connected to a SQL database of users.  Create a login server which can add, delete and authenticate users on an LDAP server.  
 ###### Documentation describing the selected computing service, including network diagram and specific details on what services being installed on which container.
 ### Deliverable 2:
 ###### In-class demonstration of the selected computing services on local machines or on CloudLab (may or may not be automated on CloudLab).
