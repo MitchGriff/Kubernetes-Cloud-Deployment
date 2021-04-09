@@ -8,7 +8,7 @@
 #### Liam Kelleher   user
 #### Matt Logan      user
 
-## Google Doc:
+## Action Log:
 ### https://docs.google.com/document/d/1ElFoIr5jb2kwBYB_Svwb5WzeizQcR_evMXCaTS6yKJg/edit?usp=sharing
 
 ###### Install and deploy a multi-node container-based computing service on Kubernetes.
