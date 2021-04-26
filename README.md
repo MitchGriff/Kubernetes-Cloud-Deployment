@@ -6,7 +6,10 @@
 #### Noah Demi       user
 #### Klentin Mollai  user
 #### Liam Kelleher   user
-#### Klentin Mollai  user
+#### Matt Logan      user
+
+## Action Log:
+### https://docs.google.com/document/d/1ElFoIr5jb2kwBYB_Svwb5WzeizQcR_evMXCaTS6yKJg/edit?usp=sharing
 
 ###### Install and deploy a multi-node container-based computing service on Kubernetes.
 ###### Project Primary Task:
@@ -18,7 +21,7 @@
 ## Installation and Deployment
 ### Deliverable 1:
 ### Team description
-Create an apache web server connected to a SQL database of users.  Create a login server which can add, delete and authenticate users on an LDAP server.  
+###### Create an apache web server connected to a SQL database of users.  Create a login server which can add, delete and authenticate users on an LDAP server.  
 ###### Documentation describing the selected computing service, including network diagram and specific details on what services being installed on which container.
 ### Deliverable 2:
 ###### In-class demonstration of the selected computing services on local machines or on CloudLab (may or may not be automated on CloudLab).
@@ -26,4 +29,4 @@ Create an apache web server connected to a SQL database of users.  Create a logi
 ###### 24-hour Q&A session via Discord team channel
 ###### Weekly progress report (Friday).
 ### Deliverable 3:
-###### Written Project report and/(or) GitHub repository contains all necessary compose file and Dockerfile to deploy the service on CloudLab.
+###### Written Project report and/(or) GitHub reposito
