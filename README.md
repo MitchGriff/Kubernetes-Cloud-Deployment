@@ -2,11 +2,11 @@
 
 ## Final Project
 
-### Mitch Griffith  admin
-#### Klentin Mollai  user,
-#### Noah Demi       user,
-#### Liam Kelleher   user,
-#### Matt Logan      user,
+### Mitch Griffith   admin
+#### Klentin Mollai   user,
+#### Noah Demi        user,
+#### Liam Kelleher    user,
+#### Matt Logan       user,
 
 ## Action Log:
 ### https://docs.google.com/document/d/1ElFoIr5jb2kwBYB_Svwb5WzeizQcR_evMXCaTS6yKJg/edit?usp=sharing
