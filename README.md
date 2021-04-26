@@ -13,7 +13,7 @@
 
 ###### Install and deploy a multi-node container-based computing service on Kubernetes.
 ###### Project Primary Task:
-###### Propose a computing service consisting of at least three service component (i.e., a web server with a backend SQL server and a Single-Sign-On LDAP server for authentication  purposes) and deploy the corresponding containers inside Kubernetes infrastructure.
+###### Propose a computing service consisting of at least three service component (i.e., a web server with a backend mySQL server and Adminer for Database administration) and deploy the corresponding containers inside Kubernetes infrastructure.
 ###### Project Subtasks:
 ###### Able to setup containers (possibly on local computers) that work together to provide a unified computing service to users.
 ###### Able to utilize Docker compose and Dockerfile to automate the deployment of the containers on a Kubernetes cluster and expose the service to the public.
