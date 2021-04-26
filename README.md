@@ -1,4 +1,4 @@
-# csc468cloudfilanproject
+# CSC 468 Cloud Final Project
 
 ## Final Project
 
