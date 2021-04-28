@@ -1,0 +1,31 @@
+appVersion: v1
+kind: Service
+metadata:
+  name: php
+spec:
+  type: NodePort
+    - port: 80
+      targetPort: 80
+      nodePort: 9080
+      
+---
+
+appVersion: v1
+kind: Service
+metadata:
+  name: db
+spec:
+  type: ClusterIP
+
+---
+
+appVersion: v1
+kind: Service
+metadata:
+  name: adminer
+spec:
+  type: NodePort
+  ports:
+    - port: 8080
+      targetPort: 8080
+      nodePort: 18080
