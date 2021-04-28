@@ -13,15 +13,6 @@ spec:
 appVersion: v1
 kind: Service
 metadata:
-  name: db
-spec:
-  type: ClusterIP
-
----
-
-appVersion: v1
-kind: Service
-metadata:
   name: adminer
 spec:
   type: NodePort
@@ -29,3 +20,13 @@ spec:
     - port: 8080
       targetPort: 8080
       nodePort: 18080
+      
+---
+
+appVersion: v1
+kind: Service
+metadata:
+  name: db
+spec:
+  type: ClusterIP
+
