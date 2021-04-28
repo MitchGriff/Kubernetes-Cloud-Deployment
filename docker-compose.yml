@@ -1,29 +1,30 @@
-version: '3.1'
-
-services:
-  php:
+apiVersion: v1
+kind: Deployment
+metadata:
+  name: csc468
+spec:
+  volumes:
+  - name: mysql-data
+    emptyDir: {}
+  containers:
+  - name: php
     build:
       context: .
       dockerfile: Dockerfile
     ports:
-      - 9080:80
-    volumes:
-      - ./src:/var/www/html/
-
-  db:
+      - name: php-port
+        containerPort: 80
+  - name: db
     image: mysql
-    command: --default-authentication-plugin=mysql_native_password
+    commands: --default-authentication-plugin=mysql_native_password
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: TheBlueTeam
     volumes:
       - mysql-data:/var/lib/mysql
-
-  adminer:
+  - name: adminer
     image: adminer
     restart: always
     ports:
-      - 18080:8080
-
-volumes:
-  mysql-data: 
+      - name: adminer-port
+        containerPort: 8080
