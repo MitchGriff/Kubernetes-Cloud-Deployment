@@ -29,4 +29,6 @@ metadata:
   name: db
 spec:
   type: ClusterIP
-
+  ports:
+    - port:
+      targetPort: 
