@@ -12,29 +12,29 @@ spec:
     metadata:
       labels:
         app: csc468
-  spec:
-    containers:
-    - name: php
-      build:
-        context: .
-        dockerfile: Dockerfile
-      ports:
-        - name: php-port
-          containerPort: 80
-    - name: db
-      image: mysql
-      commands: --default-authentication-plugin=mysql_native_password
-      restart: always
-      environment:
-        MYSQL_ROOT_PASSWORD: TheBlueTeam
-      volumes:
-        - mysql-data:/var/lib/mysql
-      ports:
-        - name: db-port
-          containerPort: 3306
-    - name: adminer
-      image: adminer
-      restart: always
-      ports:
-        - name: adminer-port
-          containerPort: 8080
+    spec:
+      containers:
+      - name: php
+        build:
+          context: .
+          dockerfile: Dockerfile
+        ports:
+          - name: php-port
+            containerPort: 80
+      - name: db
+        image: mysql
+        commands: --default-authentication-plugin=mysql_native_password
+        restart: always
+        environment:
+          MYSQL_ROOT_PASSWORD: TheBlueTeam
+        volumes:
+          - mysql-data:/var/lib/mysql
+        ports:
+          - name: db-port
+            containerPort: 3306
+      - name: adminer
+        image: adminer
+        restart: always
+        ports:
+          - name: adminer-port
+            containerPort: 8080
