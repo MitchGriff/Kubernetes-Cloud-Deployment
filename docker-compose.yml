@@ -22,10 +22,10 @@ spec:
             containerPort: 80
       - name: db
         image: mysql
+        env:
+          MYSQL_ROOT_PASSWORD: TheBlueTeam
         commands: --default-authentication-plugin=mysql_native_password
         restart: always
-        environment:
-          MYSQL_ROOT_PASSWORD: TheBlueTeam
         volumes:
           - mysql-data:/var/lib/mysql
         ports:
