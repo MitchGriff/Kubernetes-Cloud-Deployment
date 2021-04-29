@@ -14,9 +14,7 @@ spec:
     spec:
       containers:
       - name: php
-        image: php:7.4-apache
-        imagePullPolicy: Always
-        command: ["docker-php-ext-install mysqli"]
+        image: mg884528/theblueteam:first
         ports:
           - name: php-port
             containerPort: 80
