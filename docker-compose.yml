@@ -14,7 +14,10 @@ spec:
     spec:
       containers:
       - name: php
-        image: php-app
+        image:
+          build:
+          - context: .
+            dockerfile: "Dockerfile"
         ports:
           - name: php-port
             containerPort: 80
