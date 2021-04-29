@@ -14,9 +14,8 @@ spec:
     spec:
       containers:
       - name: php
-        build:
-          context: .
-          dockerfile: Dockerfile
+        image: php:7.4-apache
+        args: ["docker-php-ext-install mysqli"]
         ports:
           - name: php-port
             containerPort: 80
