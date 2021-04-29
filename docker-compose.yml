@@ -24,16 +24,19 @@ spec:
         image: mysql
         env:
           MYSQL_ROOT_PASSWORD: TheBlueTeam
-        commands: --default-authentication-plugin=mysql_native_password
-        restart: always
-        volumes:
-          - mysql-data:/var/lib/mysql
+        args: ["--default-authentication-plugin=mysql_native_password"]
+        volumeMounts:
+          - name: mysql-data
+            mountPath: /var/lib/mysql
         ports:
           - name: db-port
             containerPort: 3306
       - name: adminer
         image: adminer
-        restart: always
         ports:
           - name: adminer-port
             containerPort: 8080
+      volumes:
+      - name: mysql-data
+        persistentVolumeClaim:
+          claimName: mysql-pv-claim
