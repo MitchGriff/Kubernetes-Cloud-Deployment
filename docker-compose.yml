@@ -22,7 +22,8 @@ spec:
       - name: db
         image: mysql
         env:
-        - MYSQL_ROOT_PASSWORD: TheBlueTeam
+        - naoe: MYSQL_ROOT_PASSWORD
+          value: TheBlueTeam
         args: ["--default-authentication-plugin=mysql_native_password"]
         volumeMounts:
           - name: mysql-data
