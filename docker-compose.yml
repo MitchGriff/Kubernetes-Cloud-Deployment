@@ -7,7 +7,7 @@ spec:
   selector:
     matchLabels:
       app: csc468
-  templates:
+  template:
     metadata:
       labels:
         app: csc468
