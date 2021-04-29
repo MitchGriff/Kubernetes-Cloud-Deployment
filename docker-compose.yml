@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
       - name: php
-        image: php:7.4-apache
-        args: ["docker-php-ext-install mysqli"]
+        image: php-app
         ports:
           - name: php-port
             containerPort: 80
