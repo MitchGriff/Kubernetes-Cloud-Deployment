@@ -7,6 +7,8 @@
 #### Action Log: https://docs.google.com/document/d/1ElFoIr5jb2kwBYB_Svwb5WzeizQcR_evMXCaTS6yKJg/edit?usp=sharing
 #### Presentation Slides: https://docs.google.com/presentation/d/1SLg-gG-4C7VtFkQPTeEyPi8y2jNA4lQ0wlYn-qbhRwY/edit?usp=sharing
 
+## Repository Description:
+
 ###### Install and deploy a multi-node container-based computing service on Kubernetes.
 ###### Project Primary Task:
 ###### Propose a computing service consisting of at least three service component (i.e., a web server with a backend mySQL server and Adminer for Database administration) and deploy the corresponding containers inside Kubernetes infrastructure.
