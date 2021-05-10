@@ -4,18 +4,19 @@
 
 #### Team Members: Mitch Griffith, Klentin Mollai, Noah Demi, Liam Kelleher, Matt Logan
 
+We chose to do installation and deployment for this project.  We chose this to get more hands on experience with
+
 #### Action Log: https://docs.google.com/document/d/1ElFoIr5jb2kwBYB_Svwb5WzeizQcR_evMXCaTS6yKJg/edit?usp=sharing
 #### Presentation Slides: https://docs.google.com/presentation/d/1SLg-gG-4C7VtFkQPTeEyPi8y2jNA4lQ0wlYn-qbhRwY/edit?usp=sharing
 
 ## Repository Description:
 
-###### Install and deploy a multi-node container-based computing service on Kubernetes.
-###### Project Primary Task:
-###### Propose a computing service consisting of at least three service component (i.e., a web server with a backend mySQL server and Adminer for Database administration) and deploy the corresponding containers inside Kubernetes infrastructure.
-###### Project Subtasks:
-###### Able to setup containers (possibly on local computers) that work together to provide a unified computing service to users.
-###### Able to utilize Docker compose and Dockerfile to automate the deployment of the containers on a Kubernetes cluster and expose the service to the public.
-###### All containers must be on its own subnet and not using the container engine’s default network.
+This repository contains everything you need to get a Cloud Lab experiment up and running.  The experiment will have everything needed to get deploy an app in Kubernetes.  
+
+
+
+
+
 ## Installation and Deployment
 ### Deliverable 1:
 ### Team description
