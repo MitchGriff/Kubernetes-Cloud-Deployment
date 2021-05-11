@@ -1,6 +1,6 @@
-#CSC 468 Cloud Final Project
+# CSC 468 Cloud Final Project
 
-##Final Project
+## Final Project
 Team Members: Mitch Griffith, Klentin Mollai, Noah Demi, Liam Kelleher, Matt Logan
 
 We chose to do installation and deployment for this project.  We chose this to get more hands on experience with
