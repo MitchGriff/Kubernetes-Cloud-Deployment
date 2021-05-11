@@ -1,6 +1,6 @@
 # CSC 468 Cloud Final Project
 
-## Project Details
+## Project Details:
 Team Members: Mitch Griffith, Klentin Mollai, Noah Demi, Liam Kelleher, Matt Logan
 
 We chose to do installation and deployment for this project.  We chose this to get more hands on experience with Docker and Kubernetes.  These are good tools to have knowledge with moving into the workforce.  
