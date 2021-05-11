@@ -1,8 +1,7 @@
-# CSC 468 Cloud Final Project
+#CSC 468 Cloud Final Project
 
-## Final Project
-
-#### Team Members: Mitch Griffith, Klentin Mollai, Noah Demi, Liam Kelleher, Matt Logan
+##Final Project
+Team Members: Mitch Griffith, Klentin Mollai, Noah Demi, Liam Kelleher, Matt Logan
 
 We chose to do installation and deployment for this project.  We chose this to get more hands on experience with
 
@@ -11,7 +10,7 @@ Link to project resources:
 * Presentation Slides: https://docs.google.com/presentation/d/1SLg-gG-4C7VtFkQPTeEyPi8y2jNA4lQ0wlYn-qbhRwY/edit?usp=sharing
 * Documentation Paper: https://docs.google.com/document/d/1SRzNWW0U5-iHbAoSpxTkttymckmAJY6rfsAyXgm4zNE/edit?usp=sharing
 
-## Repository Description:
+##Repository Description:
 
 This repository contains everything you need to get a Cloud Lab experiment up and running.  The experiment will have everything needed to get deploy an app in Kubernetes.  
 
