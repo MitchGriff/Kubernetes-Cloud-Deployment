@@ -31,28 +31,28 @@ bash /local/repository/launch_network.sh
 kubectl get nodes
 ```
 Next we will get create a Kubernetes namespace to add the .yaml files to.  We called our namespace blueteam:
-
+```
 bash
 kubectl create namespace blueteam
-
+```
 Now we need to add the deployment .yaml file to the namespace:
-
+```
 kubectl create -f /local/repository/blueteam.yaml --namespace blueteam
-
+```
 Now we can run this command to verify that the containers are running containers pods:
-
+```
 kubectl get pods -n blueteam
-
+```
 The pods may take a few minutes to get ready but they will get theselves up and running.  Now that we have the images deployed on the network, we need to add the services to the network.  
 
 We can add the services to the network by: 
-
+```
 kubectl create -f /local/repository/blueteam-service.yaml --namespace blueteam
-
+```
 Once this is done, we can run:
-
+```
 kubectl get services --namespace blueteam
-
+```
 in order to confirm that the services have been added and they are added to the network and they have been mapped to their ports.  
 
 This gets the project up and running in its current state.  There is currently a problem with the port mapping where the 
