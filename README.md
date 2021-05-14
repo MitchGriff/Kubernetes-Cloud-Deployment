@@ -25,7 +25,8 @@ The profile.py file requests a total of 4 nodes.  One head node and three worker
 
 Launch the experiment.  We launched our experiemnt on the Emulab network and had no problems with it.  Once yhou log into the head node you will need to run the following commands to launch the network:
 
-```cd
+```
+cd
 bash /local/repository/launch_network.sh
 kubectl get nodes
 ```
