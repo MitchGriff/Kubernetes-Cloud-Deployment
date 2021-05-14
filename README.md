@@ -27,8 +27,8 @@ Launch the experiment.  We launched our experiemnt on the Emulab network and had
 
 ```cd
 bash /local/repository/launch_network.sh
-kubectl get nodes```
-
+kubectl get nodes
+```
 Next we will get create a Kubernetes namespace to add the .yaml files to.  We called our namespace blueteam:
 
 bash
